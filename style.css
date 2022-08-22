@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #314755;
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);
+    background: linear-gradient(to right, #26a0da, #314755);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form--login {
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #fff;
+}
+
+.form--login h1 {
+    text-align: center;
+    margin: 15px 0 30px 0;
+    color: #1266f1;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form--util {
+    display: flex;
+    margin: 10px 0;
+}
+
+.form--util > :nth-child(1) {
+    width: 100%;
+    font-size: 15px;
+}
+
+.form--util > :nth-child(2) {
+    width: 100%;
+    text-align: end;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+input[type="submit"] {
+    background-color: #1266f1;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0f53c0;
+    transition: 0.5s;
+}
+
+.form--login p,
+a {
+    text-align: center;
+    font-size: 15px;
+}
